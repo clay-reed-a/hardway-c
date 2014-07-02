@@ -1,6 +1,7 @@
-int main(int argc, char *argv[])
-{ 
+#include <stdio.h>
+
+int main(int argc, char *argv[]) {
 	puts("Hello world."); 
 
-	return 0; 
+	return 0;  
 }
