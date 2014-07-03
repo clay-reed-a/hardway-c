@@ -18,6 +18,6 @@ task: remove initial value from a
 saw: a w/o a value interpreted as 0
 
 task: remove a from printf call
-saw: upon call, %d replaced w/ 
+saw: upon execution, %d replaced w/ 
 weird values, such as -461942152, 
 -506479992 or 1687693144 */      
