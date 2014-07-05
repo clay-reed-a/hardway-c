@@ -12,7 +12,6 @@ int main(int argc, char *argv[])
 	printf("You are %d miles away.\n", d);
 	printf("You have %f levels of power.\n", p);
 	printf("You have %f awesome super powers.\n", sup_p);
-	printf("");
 	printf("I have a name %s.\n", mid);
 	printf("I have a name %s.\n", first);
 	printf("I have a name %c.\n", last);
