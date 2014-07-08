@@ -1,0 +1,37 @@
+==11452== Memcheck, a memory error detector
+==11452== Copyright (C) 2002-2013, and GNU GPL'd, by Julian Seward et al.
+==11452== Using Valgrind-3.9.0 and LibVEX; rerun with -h for copyright info
+==11452== Command: ./ex6
+==11452== 
+==11452== Invalid read of size 1
+==11452==    at 0x4E74CBA: vfprintf (vfprintf.c:1623)
+==11452==    by 0x4E7D479: printf (printf.c:35)
+==11452==    by 0x4005F8: main (ex6.c:18)
+==11452==  Address 0x41 is not stack'd, malloc'd or (recently) free'd
+==11452== 
+==11452== 
+==11452== Process terminating with default action of signal 11 (SIGSEGV)
+==11452==  Access not within mapped region at address 0x41
+==11452==    at 0x4E74CBA: vfprintf (vfprintf.c:1623)
+==11452==    by 0x4E7D479: printf (printf.c:35)
+==11452==    by 0x4005F8: main (ex6.c:18)
+==11452==  If you believe this happened as a result of a stack
+==11452==  overflow in your program's main thread (unlikely but
+==11452==  possible), you can try to increase the size of the
+==11452==  main thread stack using the --main-stacksize= flag.
+==11452==  The main thread stack size used in this run was 8388608.
+You are 1000000 miles away.
+You have 2.345000 levels of power.
+You have 56789.453200 awesome super powers.
+I have a name Reed.
+I have a name Clay.
+I have a name A.
+I have a name Clay ==11452== 
+==11452== HEAP SUMMARY:
+==11452==     in use at exit: 0 bytes in 0 blocks
+==11452==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==11452== 
+==11452== All heap blocks were freed -- no leaks are possible
+==11452== 
+==11452== For counts of detected and suppressed errors, rerun with: -v
+==11452== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 2 from 2)
