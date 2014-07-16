@@ -1,0 +1,19 @@
+#!/usr/bin/ruby 
+# what happens when I use 
+# as many args as possible? 
+
+i=1
+
+ARGV.each do |arg| 
+	puts "arg #{i}: #{arg}" 
+	i += 1 
+end 
+
+states = ["California", "Oregon", "Washington", "Texas"]
+
+i=1 
+
+states.each do |state|
+	puts "state #{i}: #{state}"
+	i += 1 
+end 

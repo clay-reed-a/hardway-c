@@ -1,0 +1,5 @@
+ex10:1: Invalid char `\x7F' in expression
+ex10:1: Invalid char `\x02' in expression
+ex10:1: Invalid char `\x01' in expression
+ex10:1: Invalid char `\x01' in expression
+ex10:1:in `<main>': uninitialized constant ELF (NameError)
